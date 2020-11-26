@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - areaManage</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>areaManage</h1>
+<p>
+  Test duration: 59.502s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcase.AreaTestCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="lis系统仓库信息同步接口新增">test_020_02_pushWarehouses</span>
+      </td>
+  <td class="duration">
+    1.042s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.net.ConnectException: Connection refused: connect</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.net.DualStackPlainSocketImpl.connect0(Native Method)<br />
+              java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)<br />
+              java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)<br />
+              java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)<br />
+              java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)<br />
+              java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)<br />
+              java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)<br />
+              java.net.Socket.connect(Socket.java:589)<br />
+              org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)<br />
+              org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)<br />
+              org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)<br />
+              org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)<br />
+              org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)<br />
+              org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)<br />
+              org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)<br />
+              org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)<br />
+              org.apache.http.client.HttpClient$execute$8.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146)<br />
+              io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)<br />
+              io.restassured.internal.http.HTTPBuilder$post$21.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1274)<br />
+              sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)<br />
+              io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)<br />
+              io.restassured.filter.Filter$filter$3.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.log.StatusCodeBasedLoggingFilter.filter(StatusCodeBasedLoggingFilter.java:93)<br />
+              io.restassured.filter.log.ResponseLoggingFilter.filter(ResponseLoggingFilter.java:31)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$3.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.FilterContext$next$2.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749)<br />
+              sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)<br />
+              sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)<br />
+              testcase.AreaTestCase.createLisData(AreaTestCase.java:343)<br />
+              testcase.AreaTestCase.test_020_02_pushWarehouses(AreaTestCase.java:285)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:40)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)<br />
+              org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="lis系统仓库信息同步接口修改">test_020_03_pushWarehouses</span>
+      </td>
+  <td class="duration">
+    1.011s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.net.ConnectException: Connection refused: connect</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.net.DualStackPlainSocketImpl.connect0(Native Method)<br />
+              java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)<br />
+              java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)<br />
+              java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)<br />
+              java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)<br />
+              java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)<br />
+              java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)<br />
+              java.net.Socket.connect(Socket.java:589)<br />
+              org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)<br />
+              org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)<br />
+              org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)<br />
+              org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)<br />
+              org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)<br />
+              org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)<br />
+              org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)<br />
+              org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)<br />
+              org.apache.http.client.HttpClient$execute$8.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146)<br />
+              io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)<br />
+              io.restassured.internal.http.HTTPBuilder$post$21.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1274)<br />
+              sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)<br />
+              io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)<br />
+              io.restassured.filter.Filter$filter$3.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.log.StatusCodeBasedLoggingFilter.filter(StatusCodeBasedLoggingFilter.java:93)<br />
+              io.restassured.filter.log.ResponseLoggingFilter.filter(ResponseLoggingFilter.java:31)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)<br />
+              io.restassured.filter.Filter$filter$1.call(Unknown Source)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)<br />
+              io.restassured.filter.Filter$filter$3.call(Unknown Source)<br />
+              io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)<br />
+              io.restassured.filter.FilterContext$next$2.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749)<br />
+              sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)<br />
+              sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)<br />
+              testcase.AreaTestCase.createLisData(AreaTestCase.java:343)<br />
+              testcase.AreaTestCase.test_020_03_pushWarehouses(AreaTestCase.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:40)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)<br />
+              org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcase.AreaTestCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="查找库房管理默认">test_001_findByPage</span>
+      </td>
+  <td class="duration">
+    2.817s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="查找库房管理组合查询">test_002_findByPage</span>
+      </td>
+  <td class="duration">
+    0.324s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取部门">test_003_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.187s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取库房状态数据字典（启用/禁用）">test_004_getDictByDicTypeKey</span>
+      </td>
+  <td class="duration">
+    0.153s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="查询该仓库名称是否重复">test_005_findExistAreaName</span>
+      </td>
+  <td class="duration">
+    0.173s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="查询该仓库编号是否重复">test_006_findExistAreaCode</span>
+      </td>
+  <td class="duration">
+    0.118s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增仓库">test_007_saveCustomPoint</span>
+      </td>
+  <td class="duration">
+    0.689s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="查询仓库获取新增的仓库id">test_008_findByPage</span>
+      </td>
+  <td class="duration">
+    2.131s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取编辑数据/仓库名称获取仓库详情">test_009_findWarehouseByAreaId</span>
+      </td>
+  <td class="duration">
+    0.137s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="编辑仓库">test_010_saveCustomPoint</span>
+      </td>
+  <td class="duration">
+    0.756s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增标签（用于新增监测点）">test_011_saveLable</span>
+      </td>
+  <td class="duration">
+    0.384s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增监测点时调用获取当前仓库所有标签">test_012_findAllLableByAreaId</span>
+      </td>
+  <td class="duration">
+    0.083s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="保存监测点时判断监测点名称是否存在">test_013_checkMonitorPointName</span>
+      </td>
+  <td class="duration">
+    0.086s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增监测点">test_014_saveMonitorPoint</span>
+      </td>
+  <td class="duration">
+    0.551s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="查询获取新增监测点id">test_015_findByPage</span>
+      </td>
+  <td class="duration">
+    2.194s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取历史绑定设备">test_016_findAllBindHistory</span>
+      </td>
+  <td class="duration">
+    0.147s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="点击改绑设备时根据监测点id获取监测点数据">test_017_getMonitorPointById</span>
+      </td>
+  <td class="duration">
+    0.128s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="修改监测点保存">test_018_updateLable</span>
+      </td>
+  <td class="duration">
+    0.962s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="删除监测点">test_019_deleteMonitorPoint</span>
+      </td>
+  <td class="duration">
+    0.698s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="仓库获取表格列">test_020_01_deleteMonitorPoint</span>
+      </td>
+  <td class="duration">
+    0.189s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="导出">test_020_04_exportWarehouse</span>
+      </td>
+  <td class="duration">
+    1.079s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取库房时间设定管理表格列">test_021_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.156s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据orgid获取所有仓库">test_022_getWarehouseListByOrgIdList</span>
+      </td>
+  <td class="duration">
+    0.909s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="输入部门和仓库组合查询">test_023_findByPage</span>
+      </td>
+  <td class="duration">
+    1.489s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="库房时间设定管理默认查询">test_024_findByPage</span>
+      </td>
+  <td class="duration">
+    1.248s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="库房时间设定选择">test_025_judgeTimeCanSet</span>
+      </td>
+  <td class="duration">
+    0.146s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="保存库房时间设定星期（全局设置）">test_026_saveSetting</span>
+      </td>
+  <td class="duration">
+    0.612s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="保存库房时间设定（自定义设置）">test_027_saveSetting</span>
+      </td>
+  <td class="duration">
+    0.538s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取客户自提预约列表格">test_028_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.188s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取运单来源数据字典">test_029_getDictByDicTypeKey</span>
+      </td>
+  <td class="duration">
+    0.063s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="组合查询客户自提预约">test_030_findByPage</span>
+      </td>
+  <td class="duration">
+    0.700s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取发货仓库">test_031_getWarehouseList</span>
+      </td>
+  <td class="duration">
+    0.829s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取收货仓库">test_032_getReceiveWarehouseList</span>
+      </td>
+  <td class="duration">
+    0.716s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据发货仓库获取仓库数据">test_033_getWarehouseByAreaId</span>
+      </td>
+  <td class="duration">
+    0.116s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据收货仓库获取仓库数据">test_034_getWarehouseByAreaId</span>
+      </td>
+  <td class="duration">
+    0.100s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增保存出库运单">test_035_saveWaybill</span>
+      </td>
+  <td class="duration">
+    0.395s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="默认查询客户自提预约">test_036_findByPage</span>
+      </td>
+  <td class="duration">
+    11.590s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="点击预约获取可选择垛口">test_037_findCrenelListByWarehouse</span>
+      </td>
+  <td class="duration">
+    0.378s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="点击预约获取仓库和垛口进行显示">test_038_findFreeByAreaIdAndSettingTime</span>
+      </td>
+  <td class="duration">
+    0.332s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="提交预约">test_039_appointmentSubmit</span>
+      </td>
+  <td class="duration">
+    0.985s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="审核驳回">test_040_reviewRejectSubmit</span>
+      </td>
+  <td class="duration">
+    0.802s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="再次提交预约">test_041_appointmentSubmit</span>
+      </td>
+  <td class="duration">
+    0.958s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="预约审核通过">test_042_reviewPassSubmit</span>
+      </td>
+  <td class="duration">
+    0.831s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="查看自提预约操作记录详情">test_043_findActionRecordByAppointmentOrderCode</span>
+      </td>
+  <td class="duration">
+    0.104s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="导出">test_044_exportAppointment</span>
+      </td>
+  <td class="duration">
+    9.731s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取库房预约看板列表格">test_045_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.567s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取管理机构">test_046_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.275s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据管理机构获取所有仓库">test_047_getWarehouseListByOrgIdList</span>
+      </td>
+  <td class="duration">
+    0.553s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="组合查询库房预约看板">test_048_findByPage</span>
+      </td>
+  <td class="duration">
+    1.161s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="默认查询库房预约看板">test_049_findByPage</span>
+      </td>
+  <td class="duration">
+    0.804s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

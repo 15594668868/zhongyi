@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="waybillManage"
+           tests="78"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="58.422">
+  <properties />
+  
+  
+            <testcase name="test_002_findByPage" time="0.531" classname="testcase.WaybillTestCase" />
+                <testcase name="test_042_findElecLockWid" time="0.123" classname="testcase.WaybillTestCase" />
+                <testcase name="test_058_findByPage" time="0.526" classname="testcase.WaybillTestCase" />
+                <testcase name="test_027_getTerminalByType" time="0.115" classname="testcase.WaybillTestCase" />
+                <testcase name="test_075_findByPage" time="0.067" classname="testcase.WaybillTestCase" />
+                <testcase name="test_025_getTableColumnSettings" time="0.179" classname="testcase.WaybillTestCase" />
+                <testcase name="test_035_findElecLockWid" time="0.427" classname="testcase.WaybillTestCase" />
+                <testcase name="test_048_getWarehouseByAreaId" time="0.089" classname="testcase.WaybillTestCase" />
+                <testcase name="test_068_saveWaybill" time="0.677" classname="testcase.WaybillTestCase" />
+                <testcase name="test_053_getTerminalByWid" time="0.113" classname="testcase.WaybillTestCase" />
+                <testcase name="test_061_getWarehouseByAreaId" time="0.131" classname="testcase.WaybillTestCase" />
+                <testcase name="test_029_getWarehouseList" time="0.503" classname="testcase.WaybillTestCase" />
+                <testcase name="test_016_saveWaybill" time="0.521" classname="testcase.WaybillTestCase" />
+                <testcase name="test_012_findZhbWid" time="0.141" classname="testcase.WaybillTestCase" />
+                <testcase name="test_033_saveWaybill" time="0.311" classname="testcase.WaybillTestCase" />
+                <testcase name="test_055_findByPage" time="3.313" classname="testcase.WaybillTestCase" />
+                <testcase name="test_072_01_signWaybillBatch" time="0.999" classname="testcase.WaybillTestCase" />
+                <testcase name="test_036_getTerminalByWid" time="0.084" classname="testcase.WaybillTestCase" />
+                <testcase name="test_020_produceDispatchOrder" time="0.728" classname="testcase.WaybillTestCase" />
+                <testcase name="test_030_getReceiveWarehouseList" time="0.667" classname="testcase.WaybillTestCase" />
+                <testcase name="test_024_saveWaybill" time="0.513" classname="testcase.WaybillTestCase" />
+                <testcase name="test_065_findByWaybillId" time="0.712" classname="testcase.WaybillTestCase" />
+                <testcase name="test_052_findElecLockWid" time="0.503" classname="testcase.WaybillTestCase" />
+                <testcase name="test_007_getWarehouseByAreaId" time="0.101" classname="testcase.WaybillTestCase" />
+                <testcase name="test_070_signWaybill" time="0.704" classname="testcase.WaybillTestCase" />
+                <testcase name="test_072_02_cancelSignWaybill" time="0.630" classname="testcase.WaybillTestCase" />
+                <testcase name="test_076_exportInOutArea" time="0.245" classname="testcase.WaybillTestCase" />
+                <testcase name="test_032_getWarehouseByAreaId" time="0.500" classname="testcase.WaybillTestCase" />
+                <testcase name="test_063_saveWaybill" time="0.493" classname="testcase.WaybillTestCase" />
+                <testcase name="test_074_findByPage" time="0.844" classname="testcase.WaybillTestCase" />
+                <testcase name="test_006_findAllMerchantByType" time="0.095" classname="testcase.WaybillTestCase" />
+                <testcase name="test_054_produceDispatchOrder" time="0.856" classname="testcase.WaybillTestCase" />
+                <testcase name="test_010_saveWaybill" time="0.367" classname="testcase.WaybillTestCase" />
+                <testcase name="test_001_getTableColumnSettings" time="1.208" classname="testcase.WaybillTestCase" />
+                <testcase name="test_056_unboundOrderWaybill2" time="1.369" classname="testcase.WaybillTestCase" />
+                <testcase name="test_069_findByPage" time="1.990" classname="testcase.WaybillTestCase" />
+                <testcase name="test_023_findByWaybillId" time="0.171" classname="testcase.WaybillTestCase" />
+                <testcase name="test_013_getTerminalByWid" time="0.093" classname="testcase.WaybillTestCase" />
+                <testcase name="test_073_getTableColumnSettings" time="0.302" classname="testcase.WaybillTestCase" />
+                <testcase name="test_017_findElecLockWid" time="0.110" classname="testcase.WaybillTestCase" />
+                <testcase name="test_045_unboundOrderWaybill" time="1.567" classname="testcase.WaybillTestCase" />
+                <testcase name="test_011_findByPage" time="1.906" classname="testcase.WaybillTestCase" />
+                <testcase name="test_043_getTerminalByWid" time="0.077" classname="testcase.WaybillTestCase" />
+                <testcase name="test_064_findByPage" time="2.174" classname="testcase.WaybillTestCase" />
+                <testcase name="test_072_03_signMaterial" time="0.729" classname="testcase.WaybillTestCase" />
+                <testcase name="test_047_getReceiveWarehouseList" time="0.552" classname="testcase.WaybillTestCase" />
+                <testcase name="test_003_exportWaybill" time="1.953" classname="testcase.WaybillTestCase" />
+                <testcase name="test_044_boundEleclockDispatch" time="1.629" classname="testcase.WaybillTestCase" />
+                <testcase name="test_019_findByPage" time="1.417" classname="testcase.WaybillTestCase" />
+                <testcase name="test_021_findByWaybillId" time="0.412" classname="testcase.WaybillTestCase" />
+                <testcase name="test_039_findWayBillCodesByDispatchId" time="0.612" classname="testcase.WaybillTestCase" />
+                <testcase name="test_051_findByPage" time="2.680" classname="testcase.WaybillTestCase" />
+                <testcase name="test_037_produceDispatchOrder" time="0.899" classname="testcase.WaybillTestCase" />
+                <testcase name="test_059_getWarehouseList" time="0.808" classname="testcase.WaybillTestCase" />
+                <testcase name="test_060_getReceiveWarehouseList" time="0.403" classname="testcase.WaybillTestCase" />
+                <testcase name="test_049_getWarehouseByAreaId" time="0.084" classname="testcase.WaybillTestCase" />
+                <testcase name="test_008_getWarehouseByAreaId" time="0.100" classname="testcase.WaybillTestCase" />
+                <testcase name="test_031_getWarehouseByAreaId" time="0.073" classname="testcase.WaybillTestCase" />
+                <testcase name="test_040_editOrderDispatch" time="1.340" classname="testcase.WaybillTestCase" />
+                <testcase name="test_005_getReceiveWarehouseList" time="0.382" classname="testcase.WaybillTestCase" />
+                <testcase name="test_062_getWarehouseByAreaId" time="0.130" classname="testcase.WaybillTestCase" />
+                <testcase name="test_050_saveWaybill" time="0.776" classname="testcase.WaybillTestCase" />
+                <testcase name="test_038_findByPage" time="3.701" classname="testcase.WaybillTestCase" />
+                <testcase name="test_018_getTerminalByWid" time="0.094" classname="testcase.WaybillTestCase" />
+                <testcase name="test_057_getTableColumnSettings" time="0.268" classname="testcase.WaybillTestCase" />
+                <testcase name="test_022_saveWaybill" time="1.285" classname="testcase.WaybillTestCase" />
+                <testcase name="test_071_cancelSignWaybill" time="0.664" classname="testcase.WaybillTestCase" />
+                <testcase name="test_028_findByPage" time="1.290" classname="testcase.WaybillTestCase" />
+                <testcase name="test_014_bindingObject" time="0.520" classname="testcase.WaybillTestCase" />
+                <testcase name="test_041_unboundOrderDispatch" time="0.995" classname="testcase.WaybillTestCase" />
+                <testcase name="test_015_findByWaybillId" time="0.164" classname="testcase.WaybillTestCase" />
+                <testcase name="test_004_getWarehouseList" time="0.545" classname="testcase.WaybillTestCase" />
+                <testcase name="test_009_findExistWaybillCode" time="0.103" classname="testcase.WaybillTestCase" />
+                <testcase name="test_066_saveWaybill" time="0.958" classname="testcase.WaybillTestCase" />
+                <testcase name="test_034_findByPage" time="3.601" classname="testcase.WaybillTestCase" />
+                <testcase name="test_067_findByWaybillId" time="0.182" classname="testcase.WaybillTestCase" />
+                <testcase name="test_046_getWarehouseList" time="1.215" classname="testcase.WaybillTestCase" />
+                <testcase name="test_026_findElecLockWid" time="0.083" classname="testcase.WaybillTestCase" />
+      
+</testsuite>

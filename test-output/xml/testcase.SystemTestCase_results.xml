@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="system"
+           tests="36"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="80.031">
+  <properties />
+  
+  
+            <testcase name="test_011_checkRoleNameIsExist" time="0.068" classname="testcase.SystemTestCase" />
+                <testcase name="test_004_saveOrganization" time="1.321" classname="testcase.SystemTestCase" />
+                <testcase name="test_012_saveRole" time="14.103" classname="testcase.SystemTestCase" />
+                <testcase name="test_028_findUserByUserId" time="0.128" classname="testcase.SystemTestCase" />
+                <testcase name="test_023_checkUserCodeIsExist" time="0.119" classname="testcase.SystemTestCase" />
+                <testcase name="test_032_getTableColumnSettings" time="0.291" classname="testcase.SystemTestCase" />
+                <testcase name="test_020_findOrganizationTreeByOrgId" time="0.267" classname="testcase.SystemTestCase" />
+                <testcase name="test_027_findByPage" time="0.971" classname="testcase.SystemTestCase" />
+                <testcase name="test_031_exportBaseUser" time="0.948" classname="testcase.SystemTestCase" />
+                <testcase name="test_036_findByPage" time="0.942" classname="testcase.SystemTestCase" />
+                <testcase name="test_024_checkTelephoneIsExist" time="0.496" classname="testcase.SystemTestCase" />
+                <testcase name="test_018_getTableColumnSettings" time="0.534" classname="testcase.SystemTestCase" />
+                <testcase name="test_014_findRoleDetailByRoleId" time="0.637" classname="testcase.SystemTestCase" />
+                <testcase name="test_003_findOrganizationDetail" time="0.322" classname="testcase.SystemTestCase" />
+                <testcase name="test_017_deleteRole" time="15.400" classname="testcase.SystemTestCase" />
+                <testcase name="test_015_findAllMenuTree" time="0.847" classname="testcase.SystemTestCase" />
+                <testcase name="test_002_findOrganizationTreeByOrgId" time="0.248" classname="testcase.SystemTestCase" />
+                <testcase name="test_008_getDictByDicTypeKey" time="0.102" classname="testcase.SystemTestCase" />
+                <testcase name="test_001_saveOrganization" time="1.418" classname="testcase.SystemTestCase" />
+                <testcase name="test_019_getUserAllRole" time="0.110" classname="testcase.SystemTestCase" />
+                <testcase name="test_009_findByPage" time="0.136" classname="testcase.SystemTestCase" />
+                <testcase name="test_029_saveUser" time="0.658" classname="testcase.SystemTestCase" />
+                <testcase name="test_034_findAllOperateModule" time="0.104" classname="testcase.SystemTestCase" />
+                <testcase name="test_016_saveRole" time="34.604" classname="testcase.SystemTestCase" />
+                <testcase name="test_005_deleteOrganizationByOrgId" time="0.685" classname="testcase.SystemTestCase" />
+                <testcase name="test_007_getAllModule" time="0.162" classname="testcase.SystemTestCase" />
+                <testcase name="test_013_findByPage" time="1.129" classname="testcase.SystemTestCase" />
+                <testcase name="test_035_findByPage" time="0.914" classname="testcase.SystemTestCase" />
+                <testcase name="test_033_findAllOperateType" time="0.136" classname="testcase.SystemTestCase" />
+                <testcase name="test_030_resetPwd" time="0.392" classname="testcase.SystemTestCase" />
+                <testcase name="test_006_getTableColumnSettings" time="0.233" classname="testcase.SystemTestCase" />
+                <testcase name="test_010_findAllMenuTree" time="0.588" classname="testcase.SystemTestCase" />
+                <testcase name="test_021_findByPage" time="0.344" classname="testcase.SystemTestCase" />
+                <testcase name="test_026_saveUser" time="0.501" classname="testcase.SystemTestCase" />
+                <testcase name="test_022_findAllMerchantByType" time="0.105" classname="testcase.SystemTestCase" />
+                <testcase name="test_025_checkIdCardIsExist" time="0.068" classname="testcase.SystemTestCase" />
+      
+</testsuite>

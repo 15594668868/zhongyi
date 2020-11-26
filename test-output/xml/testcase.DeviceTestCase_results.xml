@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="deviceManage"
+           tests="67"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="39.794">
+  <properties />
+            <testcase name="test_063_checkTerminal" time="0.555" classname="testcase.DeviceTestCase">
+                <failure type="java.lang.AssertionError"
+                  message="1 expectation failed.
+JSON path message doesn&apos;t match.
+Expected: a string containing &quot;电子锁密码获取成功&quot;
+  Actual: 本次电子锁施封异常，请检查电子锁信号是否正常，如需查看密码请联系管理部门
+"
+              >
+<![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path message doesn't match.
+Expected: a string containing "电子锁密码获取成功"
+  Actual: 本次电子锁施封异常，请检查电子锁信号是否正常，如需查看密码请联系管理部门
+
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+  org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+  org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$3.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1750)
+  sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)
+  sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+  io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+  io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+  testcase.BaseTestCase.sendRequest(BaseTestCase.java:101)
+  testcase.DeviceTestCase.test_063_checkTerminal(DeviceTestCase.java:789)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+  org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test_049_getTerminalCommonAlarmSetById" time="0.482" classname="testcase.DeviceTestCase" />
+                <testcase name="test_046_saveTerminalCommonAlarmSet" time="1.117" classname="testcase.DeviceTestCase" />
+                <testcase name="test_047_findByPage" time="1.249" classname="testcase.DeviceTestCase" />
+                <testcase name="test_002_getDictByDicTypeKey" time="0.154" classname="testcase.DeviceTestCase" />
+                <testcase name="test_013_saveTerminal" time="0.355" classname="testcase.DeviceTestCase" />
+                <testcase name="test_003_findByPage" time="0.333" classname="testcase.DeviceTestCase" />
+                <testcase name="test_016_saveLable" time="0.736" classname="testcase.DeviceTestCase" />
+                <testcase name="test_008_saveTerminal" time="0.247" classname="testcase.DeviceTestCase" />
+                <testcase name="test_026_findByGatewayId" time="0.496" classname="testcase.DeviceTestCase" />
+                <testcase name="test_004_findByPage" time="5.969" classname="testcase.DeviceTestCase" />
+                <testcase name="test_009_findByPage" time="0.726" classname="testcase.DeviceTestCase" />
+                <testcase name="test_014_setZhbModelAndInterval" time="0.371" classname="testcase.DeviceTestCase" />
+                <testcase name="test_028_findByNoBindPage" time="0.099" classname="testcase.DeviceTestCase" />
+                <testcase name="test_054_getTerminalTree" time="0.578" classname="testcase.DeviceTestCase" />
+                <testcase name="test_034_getWarehouseList" time="0.961" classname="testcase.DeviceTestCase" />
+                <testcase name="test_045_getTerminalTreeByAlarmTypeId" time="0.225" classname="testcase.DeviceTestCase" />
+                <testcase name="test_052_getTableColumnSettings" time="0.547" classname="testcase.DeviceTestCase" />
+                <testcase name="test_010_saveTerminalSetting" time="0.358" classname="testcase.DeviceTestCase" />
+                <testcase name="test_062_findByPage" time="0.465" classname="testcase.DeviceTestCase" />
+                <testcase name="test_037_findByPage" time="1.153" classname="testcase.DeviceTestCase" />
+                <testcase name="test_017_findByPage" time="0.934" classname="testcase.DeviceTestCase" />
+                <testcase name="test_031_bindGatewayHistory" time="0.468" classname="testcase.DeviceTestCase" />
+                <testcase name="test_050_saveTerminalCommonAlarmSet" time="0.789" classname="testcase.DeviceTestCase" />
+                <testcase name="test_057_getHumitureCommonAlarmSetById" time="0.157" classname="testcase.DeviceTestCase" />
+                <testcase name="test_018_findExistGatewayName" time="0.132" classname="testcase.DeviceTestCase" />
+                <testcase name="test_060_getTableColumnSettings" time="0.222" classname="testcase.DeviceTestCase" />
+                <testcase name="test_038_findByLableId" time="0.129" classname="testcase.DeviceTestCase" />
+                <testcase name="test_051_deleteTerminalCommonAlarmSetBatch" time="0.546" classname="testcase.DeviceTestCase" />
+                <testcase name="test_006_findExistTerminalNo" time="0.082" classname="testcase.DeviceTestCase" />
+                <testcase name="test_030_sendGatewayCmd" time="0.031" classname="testcase.DeviceTestCase" />
+                <testcase name="test_025_getTableColumnSettings" time="2.471" classname="testcase.DeviceTestCase" />
+                <testcase name="test_032_bindGatewayHistory" time="0.258" classname="testcase.DeviceTestCase" />
+                <testcase name="test_040_deleteLable" time="1.230" classname="testcase.DeviceTestCase" />
+                <testcase name="test_020_findExistGatewayCode" time="0.134" classname="testcase.DeviceTestCase" />
+                <testcase name="test_065_findByPage" time="0.437" classname="testcase.DeviceTestCase" />
+                <testcase name="test_011_saveTerminalSetting" time="0.344" classname="testcase.DeviceTestCase" />
+                <testcase name="test_023_getTableColumnSettings" time="0.181" classname="testcase.DeviceTestCase" />
+                <testcase name="test_007_findExistCommids" time="0.070" classname="testcase.DeviceTestCase" />
+                <testcase name="test_022_sendGatewayCmd" time="0.032" classname="testcase.DeviceTestCase" />
+                <testcase name="test_035_saveLable" time="0.735" classname="testcase.DeviceTestCase" />
+                <testcase name="test_024_getTableColumnSettings" time="0.103" classname="testcase.DeviceTestCase" />
+                <testcase name="test_053_findByPage" time="0.200" classname="testcase.DeviceTestCase" />
+                <testcase name="test_027_saveGateway" time="0.891" classname="testcase.DeviceTestCase" />
+                <testcase name="test_064_getTableColumnSettings" time="0.229" classname="testcase.DeviceTestCase" />
+                <testcase name="test_029_bindGateway" time="0.972" classname="testcase.DeviceTestCase" />
+                <testcase name="test_001_getTableColumnSettings" time="1.213" classname="testcase.DeviceTestCase" />
+                <testcase name="test_015_getWarehouseList" time="0.431" classname="testcase.DeviceTestCase" />
+                <testcase name="test_056_findByPage" time="0.635" classname="testcase.DeviceTestCase" />
+                <testcase name="test_061_findByPage" time="0.506" classname="testcase.DeviceTestCase" />
+                <testcase name="test_021_saveGateway" time="0.443" classname="testcase.DeviceTestCase" />
+                <testcase name="test_066_findByPage" time="1.116" classname="testcase.DeviceTestCase" />
+                <testcase name="test_067_findHistoryDetailByWid" time="0.130" classname="testcase.DeviceTestCase" />
+                <testcase name="test_043_getTerminalTreeByAlarmTypeId" time="0.668" classname="testcase.DeviceTestCase" />
+                <testcase name="test_055_saveHumitureCommonAlarmSet" time="0.721" classname="testcase.DeviceTestCase" />
+                <testcase name="test_044_getTerminalTreeByAlarmTypeId" time="0.472" classname="testcase.DeviceTestCase" />
+                <testcase name="test_042_findByPage" time="0.526" classname="testcase.DeviceTestCase" />
+                <testcase name="test_033_getWarehouseList" time="0.066" classname="testcase.DeviceTestCase" />
+                <testcase name="test_039_saveLable" time="0.459" classname="testcase.DeviceTestCase" />
+                <testcase name="test_005_findExistTerminalName" time="0.076" classname="testcase.DeviceTestCase" />
+                <testcase name="test_019_findExistGatewayCode" time="0.127" classname="testcase.DeviceTestCase" />
+                <testcase name="test_058_saveHumitureCommonAlarmSet" time="0.738" classname="testcase.DeviceTestCase" />
+                <testcase name="test_012_findByTerminalId" time="0.098" classname="testcase.DeviceTestCase" />
+                <testcase name="test_048_getAllLinkManTree" time="0.419" classname="testcase.DeviceTestCase" />
+                <testcase name="test_059_deleteHumitureCommonAlarmSetBatch" time="0.747" classname="testcase.DeviceTestCase" />
+                <testcase name="test_041_getTableColumnSettings" time="0.203" classname="testcase.DeviceTestCase" />
+                <testcase name="test_036_findByPage" time="1.047" classname="testcase.DeviceTestCase" />
+      
+</testsuite>

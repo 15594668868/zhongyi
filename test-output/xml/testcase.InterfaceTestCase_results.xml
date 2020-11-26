@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="interface"
+           tests="18"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.790">
+  <properties />
+  
+  
+            <testcase name="test_013_findUserByAppId" time="0.135" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_012_findInterfaceInfoUserByPage" time="0.165" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_008_getTableColumnSettings" time="0.406" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_004_saveInterfaceInfo" time="0.455" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_003_findExistInterfaceName" time="0.103" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_009_findInterfaceInfoUserByPage" time="0.230" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_010_findInterfaceInfo" time="0.137" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_015_findApiUserInfoDetailByAppId" time="0.197" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_018_findByPage" time="0.098" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_016_getTableColumnSettings" time="0.215" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_001_getTableColumnSettings" time="1.213" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_014_saveApiInterfaceUser" time="0.416" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_002_findByPage" time="0.196" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_005_findByPage" time="0.160" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_017_findByPage" time="0.549" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_006_findByInterfaceId" time="0.359" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_007_saveInterfaceInfo" time="0.420" classname="testcase.InterfaceTestCase" />
+                <testcase name="test_011_saveApiInterfaceUser" time="0.336" classname="testcase.InterfaceTestCase" />
+      
+</testsuite>

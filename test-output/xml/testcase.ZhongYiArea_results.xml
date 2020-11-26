@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="area"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="74.513">
+  <properties />
+  
+  
+            <testcase name="test_008_findByPage" time="18.255" classname="testcase.ZhongYiArea" />
+                <testcase name="test_009_findWarehouseByAreaId" time="0.315" classname="testcase.ZhongYiArea" />
+                <testcase name="test_010_saveCustomPoint" time="55.943" classname="testcase.ZhongYiArea" />
+      
+</testsuite>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="visitor"
+           tests="55"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.725">
+  <properties />
+  
+  
+            <testcase name="test_015_verifyAppointment" time="0.379" classname="testcase.VisitorTestCase" />
+                <testcase name="test_002_getWarehouseList" time="1.148" classname="testcase.VisitorTestCase" />
+                <testcase name="test_052_findByPage" time="0.656" classname="testcase.VisitorTestCase" />
+                <testcase name="test_003_getDictByDicTypeKey" time="0.257" classname="testcase.VisitorTestCase" />
+                <testcase name="test_051_getTableColumnSettings" time="0.183" classname="testcase.VisitorTestCase" />
+                <testcase name="test_033_findByPage" time="1.096" classname="testcase.VisitorTestCase" />
+                <testcase name="test_019_findByPage" time="0.611" classname="testcase.VisitorTestCase" />
+                <testcase name="test_027_getTableColumnSettings" time="0.157" classname="testcase.VisitorTestCase" />
+                <testcase name="test_021_getTableColumnSettings" time="0.201" classname="testcase.VisitorTestCase" />
+                <testcase name="test_053_findByPage" time="0.547" classname="testcase.VisitorTestCase" />
+                <testcase name="test_039_addTempVisitorAppointment" time="0.767" classname="testcase.VisitorTestCase" />
+                <testcase name="test_035_addTempVisitorAppointment" time="0.847" classname="testcase.VisitorTestCase" />
+                <testcase name="test_013_findByPage" time="0.453" classname="testcase.VisitorTestCase" />
+                <testcase name="test_028_getWarehouseList" time="0.551" classname="testcase.VisitorTestCase" />
+                <testcase name="test_046_findByPage" time="0.877" classname="testcase.VisitorTestCase" />
+                <testcase name="test_054_findOrganizationTreeByOrgId" time="0.229" classname="testcase.VisitorTestCase" />
+                <testcase name="test_032_verifyTempAppointment" time="0.303" classname="testcase.VisitorTestCase" />
+                <testcase name="test_030_findByPage" time="0.638" classname="testcase.VisitorTestCase" />
+                <testcase name="test_044_deleteAppointment" time="0.806" classname="testcase.VisitorTestCase" />
+                <testcase name="test_049_findByPage" time="0.075" classname="testcase.VisitorTestCase" />
+                <testcase name="test_023_findByPage" time="0.132" classname="testcase.VisitorTestCase" />
+                <testcase name="test_017_getVisitorAppointmentById" time="0.094" classname="testcase.VisitorTestCase" />
+                <testcase name="test_055_exportUserAttendanceRecord" time="0.694" classname="testcase.VisitorTestCase" />
+                <testcase name="test_011_getDictByDicTypeKey" time="0.167" classname="testcase.VisitorTestCase" />
+                <testcase name="test_034_getVisitorAppointmentById" time="0.491" classname="testcase.VisitorTestCase" />
+                <testcase name="test_050_exportVisitorRecord" time="0.465" classname="testcase.VisitorTestCase" />
+                <testcase name="test_022_getWarehouseList" time="0.480" classname="testcase.VisitorTestCase" />
+                <testcase name="test_047_getWarehouseList" time="0.737" classname="testcase.VisitorTestCase" />
+                <testcase name="test_001_getTableColumnSettings" time="1.209" classname="testcase.VisitorTestCase" />
+                <testcase name="test_020_verifyAppointment" time="0.285" classname="testcase.VisitorTestCase" />
+                <testcase name="test_045_getTableColumnSettings" time="0.268" classname="testcase.VisitorTestCase" />
+                <testcase name="test_043_findByPage" time="0.918" classname="testcase.VisitorTestCase" />
+                <testcase name="test_007_findByPage" time="0.490" classname="testcase.VisitorTestCase" />
+                <testcase name="test_037_verifyTempAppointment" time="0.283" classname="testcase.VisitorTestCase" />
+                <testcase name="test_004_findByPage" time="0.125" classname="testcase.VisitorTestCase" />
+                <testcase name="test_005_getWarehouseList" time="1.118" classname="testcase.VisitorTestCase" />
+                <testcase name="test_009_getTableColumnSettings" time="0.211" classname="testcase.VisitorTestCase" />
+                <testcase name="test_026_findByPage" time="1.000" classname="testcase.VisitorTestCase" />
+                <testcase name="test_018_addVisitorAppointment" time="0.508" classname="testcase.VisitorTestCase" />
+                <testcase name="test_010_getWarehouseList" time="0.745" classname="testcase.VisitorTestCase" />
+                <testcase name="test_036_findByPage" time="0.835" classname="testcase.VisitorTestCase" />
+                <testcase name="test_029_findByPage" time="0.622" classname="testcase.VisitorTestCase" />
+                <testcase name="test_031_getVisitorAppointmentById" time="1.024" classname="testcase.VisitorTestCase" />
+                <testcase name="test_008_exportAppointment" time="0.151" classname="testcase.VisitorTestCase" />
+                <testcase name="test_048_getDictByDicTypeKey" time="0.453" classname="testcase.VisitorTestCase" />
+                <testcase name="test_042_verifyTempAppointment" time="0.663" classname="testcase.VisitorTestCase" />
+                <testcase name="test_041_getVisitorAppointmentById" time="0.083" classname="testcase.VisitorTestCase" />
+                <testcase name="test_006_addVisitorAppointment" time="0.460" classname="testcase.VisitorTestCase" />
+                <testcase name="test_025_exportTempAppointment" time="0.198" classname="testcase.VisitorTestCase" />
+                <testcase name="test_038_getWarehouseList" time="0.863" classname="testcase.VisitorTestCase" />
+                <testcase name="test_014_getVisitorAppointmentById" time="0.098" classname="testcase.VisitorTestCase" />
+                <testcase name="test_016_findByPage" time="0.542" classname="testcase.VisitorTestCase" />
+                <testcase name="test_012_findByPage" time="0.363" classname="testcase.VisitorTestCase" />
+                <testcase name="test_024_addTempVisitorAppointment" time="0.451" classname="testcase.VisitorTestCase" />
+                <testcase name="test_040_findByPage" time="0.718" classname="testcase.VisitorTestCase" />
+      
+</testsuite>

@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - project</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>project</h1>
+<p>
+  Test duration: 45.494s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcase.ProjectTestCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="新增使用公司">test_005_saveShbOrganization</span>
+      </td>
+  <td class="duration">
+    0.478s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 2 expectations failed.<br/>
+JSON path code doesn&apos;t match.<br/>
+Expected: &lt;1&gt;<br/>
+&nbsp; Actual: 0<br/>
+<br/>
+JSON path message doesn&apos;t match.<br/>
+Expected: 保存成功<br/>
+&nbsp; Actual: null<br/>
+</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)<br />
+              org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)<br />
+              org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)<br />
+              org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)<br />
+              io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)<br />
+              io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$3.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1750)<br />
+              sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)<br />
+              sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)<br />
+              testcase.BaseTestCase.sendRequest(BaseTestCase.java:101)<br />
+              testcase.BaseTest.startPerformTest(BaseTest.java:140)<br />
+              testcase.ProjectTestCase.test_005_saveShbOrganization(ProjectTestCase.java:132)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:40)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)<br />
+              org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="修改保存使用公司">test_008_saveShbOrganization</span>
+      </td>
+  <td class="duration">
+    0.171s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 2 expectations failed.<br/>
+JSON path code doesn&apos;t match.<br/>
+Expected: &lt;1&gt;<br/>
+&nbsp; Actual: 0<br/>
+<br/>
+JSON path message doesn&apos;t match.<br/>
+Expected: 保存成功<br/>
+&nbsp; Actual: null<br/>
+</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)<br />
+              org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)<br />
+              org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)<br />
+              io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)<br />
+              io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$3.call(Unknown Source)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1750)<br />
+              sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)<br />
+              sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)<br />
+              groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)<br />
+              groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)<br />
+              io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)<br />
+              org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)<br />
+              org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)<br />
+              io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)<br />
+              testcase.BaseTestCase.sendRequest(BaseTestCase.java:101)<br />
+              testcase.BaseTest.startPerformTest(BaseTest.java:140)<br />
+              testcase.ProjectTestCase.test_008_saveShbOrganization(ProjectTestCase.java:167)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:40)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)<br />
+              org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcase.ProjectTestCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="获取检查规则">test_001_getDictByDicTypeKey</span>
+      </td>
+  <td class="duration">
+    1.209s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取组织架构">test_002_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.178s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取使用公司组织架构">test_003_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.595s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取组织属性">test_004_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.121s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取使用公司组织架构">test_006_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.401s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据orgid获取部门详细信息">test_007_findOrganizationByOrgId</span>
+      </td>
+  <td class="duration">
+    0.152s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取项目人员列">test_009_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.260s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取使用公司列表">test_010_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.364s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取是否启用数据字典">test_011_getDictByDicTypeKey</span>
+      </td>
+  <td class="duration">
+    0.103s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="组合查询项目人员">test_012_findByPage</span>
+      </td>
+  <td class="duration">
+    0.215s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增项目人员">test_013_saveShbUser</span>
+      </td>
+  <td class="duration">
+    0.477s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="验证手机号是否重复">test_014_findExistUserTelephone</span>
+      </td>
+  <td class="duration">
+    0.120s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="验证身份证号是否重复">test_015_findExistUserTelephone</span>
+      </td>
+  <td class="duration">
+    0.094s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="根据姓名查询项目人员">test_016_findByPage</span>
+      </td>
+  <td class="duration">
+    0.574s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="点击编辑根据用户id获取详细信息">test_017_getShbUserById</span>
+      </td>
+  <td class="duration">
+    0.253s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="禁用">test_018_operateByUserId</span>
+      </td>
+  <td class="duration">
+    0.492s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="启用">test_019_operateByUserId</span>
+      </td>
+  <td class="duration">
+    0.527s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="重置密码">test_020_resetPwd</span>
+      </td>
+  <td class="duration">
+    0.416s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="生成平台账号信息">test_021_generateUserCode</span>
+      </td>
+  <td class="duration">
+    0.362s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="生成平台账号确认">test_022_generateAccount</span>
+      </td>
+  <td class="duration">
+    0.721s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="导出">test_023_exportShbUser</span>
+      </td>
+  <td class="duration">
+    20.448s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取签章明细列">test_024_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.211s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取使用公司组织架构">test_025_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.313s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="组合查询">test_026_findByPage</span>
+      </td>
+  <td class="duration">
+    0.666s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="默认查询">test_027_findByPage</span>
+      </td>
+  <td class="duration">
+    0.791s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="导出">test_028_exportShbSignature</span>
+      </td>
+  <td class="duration">
+    0.960s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取签章汇总列">test_029_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.244s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取使用公司组织架构">test_030_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.293s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="组合查询">test_031_findSummaryByPage</span>
+      </td>
+  <td class="duration">
+    0.489s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="默认查询">test_032_findSummaryByPage</span>
+      </td>
+  <td class="duration">
+    0.768s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="导出">test_033_exportShbSummary</span>
+      </td>
+  <td class="duration">
+    1.162s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取签收宝套餐列">test_034_getTableColumnSettings</span>
+      </td>
+  <td class="duration">
+    0.234s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取套餐状态">test_035_getDictByDicTypeKey</span>
+      </td>
+  <td class="duration">
+    0.074s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="组合查询">test_036_findByPage</span>
+      </td>
+  <td class="duration">
+    0.725s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="默认查询">test_037_findByPage</span>
+      </td>
+  <td class="duration">
+    0.712s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取使用公司列表">test_038_findOrganizationTreeByOrgId</span>
+      </td>
+  <td class="duration">
+    0.751s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增签收宝套餐设置">test_039_saveShbSetMeal</span>
+      </td>
+  <td class="duration">
+    1.156s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="获取该公司下的用户">test_040_initShbUserByOrgId</span>
+      </td>
+  <td class="duration">
+    0.070s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="新增加油包设置">test_041_saveShbRefuelBag</span>
+      </td>
+  <td class="duration">
+    0.969s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

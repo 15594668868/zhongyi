@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="deviceException"
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.895">
+  <properties />
+  
+  
+            <testcase name="test_011_getTableColumnSettings" time="0.236" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_004_getDictByDicTypeKey" time="0.180" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_002_getDictByDicTypeKey" time="0.199" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_010_findByPage" time="0.160" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_012_findByPage" time="0.153" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_005_findByPage" time="0.288" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_001_getTableColumnSettings" time="1.201" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_006_findByPage" time="0.427" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_013_findByPage" time="0.179" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_009_findByPage" time="0.186" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_003_getDictByDicTypeKey" time="0.156" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_007_exportTerminalAlarmInfo" time="0.156" classname="testcase.DeviceExceptionTestCase" />
+                <testcase name="test_008_getTableColumnSettings" time="0.374" classname="testcase.DeviceExceptionTestCase" />
+      
+</testsuite>

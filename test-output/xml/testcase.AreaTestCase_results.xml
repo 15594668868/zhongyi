@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="areaManage"
+           tests="52"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="53.315">
+  <properties />
+            <testcase name="test_020_02_pushWarehouses" time="1.042" classname="testcase.AreaTestCase">
+                <failure type="java.net.ConnectException"
+                  message="Connection refused: connect"
+              >
+<![CDATA[java.net.ConnectException: Connection refused: connect
+  java.net.DualStackPlainSocketImpl.connect0(Native Method)
+  java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+  java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+  java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+  java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+  java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+  java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+  java.net.Socket.connect(Socket.java:589)
+  org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+  org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+  org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+  org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+  org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+  org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+  org.apache.http.client.HttpClient$execute$8.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146)
+  io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+  io.restassured.internal.http.HTTPBuilder$post$21.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1274)
+  sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)
+  io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+  io.restassured.filter.Filter$filter$3.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.log.StatusCodeBasedLoggingFilter.filter(StatusCodeBasedLoggingFilter.java:93)
+  io.restassured.filter.log.ResponseLoggingFilter.filter(ResponseLoggingFilter.java:31)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$3.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.FilterContext$next$2.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749)
+  sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)
+  sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+  io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+  io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+  testcase.AreaTestCase.createLisData(AreaTestCase.java:343)
+  testcase.AreaTestCase.test_020_02_pushWarehouses(AreaTestCase.java:285)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+  org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="test_020_03_pushWarehouses" time="1.011" classname="testcase.AreaTestCase">
+                <failure type="java.net.ConnectException"
+                  message="Connection refused: connect"
+              >
+<![CDATA[java.net.ConnectException: Connection refused: connect
+  java.net.DualStackPlainSocketImpl.connect0(Native Method)
+  java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+  java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+  java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+  java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+  java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+  java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+  java.net.Socket.connect(Socket.java:589)
+  org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+  org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+  org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+  org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+  org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+  org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+  org.apache.http.client.HttpClient$execute$8.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2146)
+  io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+  io.restassured.internal.http.HTTPBuilder$post$21.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1274)
+  sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:152)
+  io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+  io.restassured.filter.Filter$filter$3.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.log.StatusCodeBasedLoggingFilter.filter(StatusCodeBasedLoggingFilter.java:93)
+  io.restassured.filter.log.ResponseLoggingFilter.filter(ResponseLoggingFilter.java:31)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)
+  io.restassured.filter.Filter$filter$1.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+  io.restassured.filter.Filter$filter$3.call(Unknown Source)
+  io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+  io.restassured.filter.FilterContext$next$2.call(Unknown Source)
+  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1749)
+  sun.reflect.GeneratedMethodAccessor158.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+  io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)
+  sun.reflect.GeneratedMethodAccessor156.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+  groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+  groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
+  io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
+  org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+  io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+  io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+  testcase.AreaTestCase.createLisData(AreaTestCase.java:343)
+  testcase.AreaTestCase.test_020_03_pushWarehouses(AreaTestCase.java:296)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+  org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test_031_getWarehouseList" time="0.829" classname="testcase.AreaTestCase" />
+                <testcase name="test_001_findByPage" time="2.817" classname="testcase.AreaTestCase" />
+                <testcase name="test_004_getDictByDicTypeKey" time="0.153" classname="testcase.AreaTestCase" />
+                <testcase name="test_008_findByPage" time="2.131" classname="testcase.AreaTestCase" />
+                <testcase name="test_022_getWarehouseListByOrgIdList" time="0.909" classname="testcase.AreaTestCase" />
+                <testcase name="test_018_updateLable" time="0.962" classname="testcase.AreaTestCase" />
+                <testcase name="test_027_saveSetting" time="0.538" classname="testcase.AreaTestCase" />
+                <testcase name="test_003_findOrganizationTreeByOrgId" time="0.187" classname="testcase.AreaTestCase" />
+                <testcase name="test_040_reviewRejectSubmit" time="0.802" classname="testcase.AreaTestCase" />
+                <testcase name="test_047_getWarehouseListByOrgIdList" time="0.553" classname="testcase.AreaTestCase" />
+                <testcase name="test_006_findExistAreaCode" time="0.118" classname="testcase.AreaTestCase" />
+                <testcase name="test_035_saveWaybill" time="0.395" classname="testcase.AreaTestCase" />
+                <testcase name="test_049_findByPage" time="0.804" classname="testcase.AreaTestCase" />
+                <testcase name="test_041_appointmentSubmit" time="0.958" classname="testcase.AreaTestCase" />
+                <testcase name="test_034_getWarehouseByAreaId" time="0.100" classname="testcase.AreaTestCase" />
+                <testcase name="test_009_findWarehouseByAreaId" time="0.137" classname="testcase.AreaTestCase" />
+                <testcase name="test_037_findCrenelListByWarehouse" time="0.378" classname="testcase.AreaTestCase" />
+                <testcase name="test_020_01_deleteMonitorPoint" time="0.189" classname="testcase.AreaTestCase" />
+                <testcase name="test_017_getMonitorPointById" time="0.128" classname="testcase.AreaTestCase" />
+                <testcase name="test_025_judgeTimeCanSet" time="0.146" classname="testcase.AreaTestCase" />
+                <testcase name="test_016_findAllBindHistory" time="0.147" classname="testcase.AreaTestCase" />
+                <testcase name="test_010_saveCustomPoint" time="0.756" classname="testcase.AreaTestCase" />
+                <testcase name="test_030_findByPage" time="0.700" classname="testcase.AreaTestCase" />
+                <testcase name="test_048_findByPage" time="1.161" classname="testcase.AreaTestCase" />
+                <testcase name="test_007_saveCustomPoint" time="0.689" classname="testcase.AreaTestCase" />
+                <testcase name="test_028_getTableColumnSettings" time="0.188" classname="testcase.AreaTestCase" />
+                <testcase name="test_019_deleteMonitorPoint" time="0.698" classname="testcase.AreaTestCase" />
+                <testcase name="test_014_saveMonitorPoint" time="0.551" classname="testcase.AreaTestCase" />
+                <testcase name="test_015_findByPage" time="2.194" classname="testcase.AreaTestCase" />
+                <testcase name="test_020_04_exportWarehouse" time="1.079" classname="testcase.AreaTestCase" />
+                <testcase name="test_012_findAllLableByAreaId" time="0.083" classname="testcase.AreaTestCase" />
+                <testcase name="test_044_exportAppointment" time="9.731" classname="testcase.AreaTestCase" />
+                <testcase name="test_029_getDictByDicTypeKey" time="0.063" classname="testcase.AreaTestCase" />
+                <testcase name="test_039_appointmentSubmit" time="0.985" classname="testcase.AreaTestCase" />
+                <testcase name="test_013_checkMonitorPointName" time="0.086" classname="testcase.AreaTestCase" />
+                <testcase name="test_002_findByPage" time="0.324" classname="testcase.AreaTestCase" />
+                <testcase name="test_046_findOrganizationTreeByOrgId" time="0.275" classname="testcase.AreaTestCase" />
+                <testcase name="test_038_findFreeByAreaIdAndSettingTime" time="0.332" classname="testcase.AreaTestCase" />
+                <testcase name="test_005_findExistAreaName" time="0.173" classname="testcase.AreaTestCase" />
+                <testcase name="test_032_getReceiveWarehouseList" time="0.716" classname="testcase.AreaTestCase" />
+                <testcase name="test_045_getTableColumnSettings" time="0.567" classname="testcase.AreaTestCase" />
+                <testcase name="test_011_saveLable" time="0.384" classname="testcase.AreaTestCase" />
+                <testcase name="test_023_findByPage" time="1.489" classname="testcase.AreaTestCase" />
+                <testcase name="test_021_getTableColumnSettings" time="0.156" classname="testcase.AreaTestCase" />
+                <testcase name="test_026_saveSetting" time="0.612" classname="testcase.AreaTestCase" />
+                <testcase name="test_033_getWarehouseByAreaId" time="0.116" classname="testcase.AreaTestCase" />
+                <testcase name="test_024_findByPage" time="1.248" classname="testcase.AreaTestCase" />
+                <testcase name="test_042_reviewPassSubmit" time="0.831" classname="testcase.AreaTestCase" />
+                <testcase name="test_036_findByPage" time="11.590" classname="testcase.AreaTestCase" />
+                <testcase name="test_043_findActionRecordByAppointmentOrderCode" time="0.104" classname="testcase.AreaTestCase" />
+      
+</testsuite>

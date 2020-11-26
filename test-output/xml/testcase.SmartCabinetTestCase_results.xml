@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smartCabinet"
+           tests="84"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="40.160">
+  <properties />
+  
+  
+            <testcase name="test_081_findDetailByOutboundOrderId" time="0.112" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_038_getSynCommodityByCode" time="0.347" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_048_getReceiverListByCabCode" time="0.157" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_070_initCommodityListByCabCode" time="0.097" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_077_findByPage" time="0.346" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_013_findByPage" time="0.530" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_035_getTableColumnSettings" time="0.192" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_043_getTableColumnSettings" time="0.506" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_037_getDictByDicTypeKey" time="0.082" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_055_getVOByInboundOrderId" time="0.168" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_056_02_findByPage" time="0.671" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_062_getDictByDicTypeKey" time="0.476" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_069_getReceiverListByCabCode" time="0.143" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_011_findExistCabCode" time="0.080" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_067_getDictByDicTypeKey" time="0.102" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_065_checkIsQdsjlOrder" time="0.022" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_036_findByPage" time="0.290" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_025_findExistChannelCode" time="0.063" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_059_inCloseOrderToFengLink" time="2.715" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_076_exportZnhgOutboundOrder" time="1.260" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_016_getTableColumnSettings" time="0.186" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_078_getVOByOutboundOrderId" time="0.491" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_046_findByPage" time="0.519" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_060_getTableColumnSettings" time="0.210" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_082_sendOperateCode" time="0.558" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_003_getDictByDicTypeKey" time="0.144" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_066_checkIsPtyhOrder" time="0.024" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_014_findSynCabDetail" time="0.482" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_028_getZnhgChannelById" time="0.091" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_051_getDictByDicTypeKey" time="0.125" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_047_initCabList" time="0.301" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_027_findByPage" time="0.589" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_005_findByPage" time="0.234" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_073_getByCommodityCodeAndCabCode" time="0.079" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_056_01_saveInboundOrder" time="2.881" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_007_initSynCabList" time="0.192" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_064_findByRoleNameAndUserId" time="0.485" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_018_getDictByDicTypeKey" time="0.124" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_022_getUserAllRole" time="0.109" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_040_findAllByCode" time="0.096" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_026_findExistChannelTelephone" time="0.077" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_033_startUpUseByChannelId" time="1.280" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_049_initCommodityList" time="0.774" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_012_findExistCabName" time="0.066" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_031_quotaMaintain" time="0.406" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_009_findCabinetsByCabCode" time="1.656" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_052_saveInboundOrder" time="1.221" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_024_saveZnhgChannel" time="0.275" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_023_getCodeByChannelName" time="0.034" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_010_saveZnhgCab" time="0.352" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_042_exportZnhgCommoditySn" time="0.868" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_017_getDictByDicTypeKey" time="0.080" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_004_findOrganizationTreeByOrgId" time="0.216" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_039_findByPage" time="3.050" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_045_getDictByDicTypeKey" time="0.096" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_041_getByCommodityId" time="0.080" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_063_findByPage" time="0.224" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_032_forbiddenByChannelId" time="1.012" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_071_initCommoditySnListByCabCode" time="0.134" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_075_saveOutboundOrder" time="1.307" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_001_getTableColumnSettings" time="1.216" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_021_initChannelUserList" time="0.194" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_050_getByCommodityCode" time="0.102" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_058_sendOperateCode" time="0.523" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_002_getDictByDicTypeKey" time="0.172" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_074_getByCommoditySn" time="0.125" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_044_getDictByDicTypeKey" time="0.077" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_072_getByCommodityCode" time="0.441" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_079_saveOutboundOrder" time="1.805" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_019_findDisabledOrganizations" time="0.126" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_083_outCloseOrderToFengLink" time="1.545" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_029_generateUserCode" time="0.218" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_034_resetPwd" time="0.560" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_015_createProcessManualStocktaking" time="0.479" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_020_findAbleUseCabListByOrgId" time="0.141" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_053_exportZnhgInboundOrder" time="0.501" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_061_getDictByDicTypeKey" time="0.071" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_008_getSynCabByCabCode" time="0.175" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_030_generateAccount" time="0.527" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_068_initCabList" time="0.254" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_057_findDetailByInboundOrderId" time="0.106" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_080_getVOByOutboundOrderId" time="0.225" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_006_initZnhgManagerUserList" time="0.625" classname="testcase.SmartCabinetTestCase" />
+                <testcase name="test_054_findByPage" time="0.465" classname="testcase.SmartCabinetTestCase" />
+      
+</testsuite>

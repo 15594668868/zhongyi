@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--共10个test，如果继续增加test则增加thread-count-->
+<suite name="Suite" parallel="tests" thread-count="10">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+
+    <!--仓库管理-->
+    <test name="areaManage" enabled="true">
+        <groups>
+            <run>
+                <!--库房信息管理-->
+                <include name="area"/>
+                <!--库房时间设定管理-->
+                <include name="areaTimeSetting"/>
+                <!--客户自提预约-->
+                <include name="customersBooking"/>
+                <!--库房预约看板-->
+                <include name="areaBooking"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.AreaTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--设备管理-->
+    <test name="deviceManage" enabled="true">
+        <groups>
+            <run>
+                <include name="terminal"/> <!--设备基础信息-->
+                <include name="gateway"/> <!--魔方管理-->
+                <include name="lable"/> <!--标签管理-->
+                <include name="deviceAlarmSet"/> <!--设备报警设置-->
+                <include name="humitureAlarmSet"/> <!--温湿度报警设置-->
+                <include name="electricLockPassword"/> <!--查看电子锁密码-->
+                <include name="electricLockRecord"/> <!--电子锁操作记录-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.DeviceTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--运输管理-->
+    <test name="waybillManage" enabled="true">
+        <groups>
+            <run>
+                <include name="waybill"/> <!--出库运单信息管理-->
+                <include name="dispatch"/> <!--派车单管理-->
+                <include name="signin"/> <!--签收管理-->
+                <include name="inOut"/> <!--进出区域报表-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.WaybillTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--监控中心-->
+    <test name="monitoring" enabled="true">
+        <groups>
+            <run>
+                <include name="tracking"/> <!--轨迹追踪-->
+                <include name="waybillMonitoring"/> <!--运单监控-->
+                <include name="areaMonitoring"/> <!--仓库温湿度实时监控-->
+                <include name="areaHistory"/> <!--仓库温湿度历史-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.MonitoringTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--访客管理-->
+    <test name="visitor" enabled="true">
+        <groups>
+            <run>
+                <include name="visitorAppointment"/> <!--访客预约管理/访客预约审核-->
+                <include name="temporaryVisitor"/> <!--临时访客管理和临时访客审核-->
+                <include name="visitorRecord"/> <!--访客记录管理-->
+                <include name="attendance"/> <!--访客记录管理-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.VisitorTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--系统管理-->
+    <test name="system" enabled="true">
+        <groups>
+            <run>
+                <include name="orgManage"/> <!--部门管理-->
+                <include name="roleManage"/> <!--角色管理-->
+                <include name="userManage"/> <!--用户管理-->
+                <include name="logManage"/> <!--操作日志-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.SystemTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--接口中心-->
+    <test name="interface" enabled="true">
+        <groups>
+            <run>
+                <include name="interfaceManage"/> <!--接口管理-->
+                <include name="accountManage"/> <!--接口管理-->
+                <include name="interfaceLog"/> <!--接口调用日志-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.InterfaceTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--设备异常中心-->
+    <test name="deviceException" enabled="true">
+        <groups>
+            <run>
+                <include name="deviceAlarm"/> <!--设备报警信息-->
+                <include name="lockException"/> <!--电子锁异常管理-->
+                <include name="locationException"/> <!--位置偏移异常管理-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.DeviceExceptionTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--签收宝项目管理-->
+    <test name="project" enabled="true">
+        <groups>
+            <run>
+                <include name="employCompany"/> <!--使用公司管理-->
+                <include name="projectPersonnel"/> <!--项目人员管理-->
+                <include name="signatureDetail"/> <!--项目签章明细-->
+                <include name="signatureCollect"/> <!--项目签章汇总-->
+                <include name="setMeal"/> <!--签收宝套餐设置-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.ProjectTestCase">
+            </class>
+        </classes>
+    </test>
+
+    <!--智能柜业务管理-->
+    <test name="smartCabinet" enabled="true">
+        <groups>
+            <run>
+                <include name="cabinet"/> <!--货柜管理-->
+                <include name="channel"/> <!--渠道商管理-->
+                <include name="commodity"/> <!--商品信息管理-->
+                <include name="inboundOrder"/> <!--入库单管理-->
+                <include name="outboundOrder"/> <!--出库单管理-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcase.SmartCabinetTestCase">
+            </class>
+        </classes>
+    </test>
+</suite>
+

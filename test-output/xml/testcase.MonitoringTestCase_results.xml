@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="monitoring"
+           tests="17"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.995">
+  <properties />
+  
+  
+            <testcase name="test_014_findByMonitorList" time="0.157" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_017_findByMonitorHistoryList" time="1.032" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_004_findWaybillListByPage" time="0.565" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_011_getTableColumnSettings" time="0.170" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_012_findOrganizationTreeByOrgId" time="0.234" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_001_findOrganizationTreeByOrgId" time="1.214" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_002_statisticalData" time="2.014" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_006_statisticalData" time="0.802" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_007_findWaybillListByPage" time="1.746" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_015_getTableColumnSettings" time="0.230" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_009_findByPage" time="0.442" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_008_getTableColumnSettings" time="0.171" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_013_findByMonitorList" time="0.155" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_010_findByPage" time="2.550" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_005_findWaybillListByPage" time="1.874" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_016_findByMonitorHistoryList" time="1.801" classname="testcase.MonitoringTestCase" />
+                <testcase name="test_003_getWarehouseListByLogin" time="0.838" classname="testcase.MonitoringTestCase" />
+      
+</testsuite>
